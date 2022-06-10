@@ -40,4 +40,9 @@ def option_names(dataset=use):
         x+=1
     return(names)
 
-print(option_names())
+import json
+to_insert = {
+"Title": get_title()
+}
+with open('saved.json', 'w') as json_data:
+    json.dump(to_insert, json_data)

@@ -40,9 +40,23 @@ def option_names(dataset=use):
         x+=1
     return(names)
 
+#Returns dictonary with name, yes value, and no value
+def names_and_values(yes, no, dataset=use):
+    data = []
+    x = 2
+    while len(dataset) > x:
+        row_name = get_value(x, 3, dataset)[1]
+        row_yes = get_value(x, yes, dataset)
+        row_no = get_value(x, no, dataset)
+        whole = {"Name": row_name, "Yes Value": row_yes, "No Value": row_no}
+        data.append(whole)
+        x+=1
+    return(data)
+
 import json
 to_insert = {
-"Title": get_title()
+"Title": get_title(), 
+"Contents": names_and_values(6,8)
 }
-with open('saved.json', 'w') as json_data:
-    json.dump(to_insert, json_data)
+with open('saved.json', 'w+') as json_data:
+   json.dump(to_insert, json_data)

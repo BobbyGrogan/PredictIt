@@ -1,46 +1,82 @@
 {
-    "How many of these nine Trump candidates win June primaries?": {
+    "Who will win the 2024 Republican presidential nomination?": {
         "Date": "2022-06-10",
-        "Time": "21:57:57",
+        "Time": "22:29:37",
         "Contents": [
             {
-                "Name": "5",
+                "Name": "DonaldTrump",
                 "Values": {
-                    "Yes Buy Value": "0.48",
-                    "No Buy Value": "0.63",
-                    "Yes Sell Value": "0.37",
-                    "No Sell Value": "0.52"
+                    "Yes Buy Value": "0.37",
+                    "No Buy Value": "0.64",
+                    "Yes Sell Value": "0.36",
+                    "No Sell Value": "0.63"
                 }
             },
             {
-                "Name": "6",
+                "Name": "RonDeSantis",
                 "Values": {
-                    "Yes Buy Value": "0.42",
-                    "No Buy Value": "0.68",
-                    "Yes Sell Value": "0.32",
-                    "No Sell Value": "0.58"
+                    "Yes Buy Value": "0.36",
+                    "No Buy Value": "0.65",
+                    "Yes Sell Value": "0.35",
+                    "No Sell Value": "0.64"
                 }
             },
             {
-                "Name": "7",
+                "Name": "NikkiHaley",
                 "Values": {
-                    "Yes Buy Value": "0.15",
-                    "No Buy Value": "0.89",
-                    "Yes Sell Value": "0.11",
-                    "No Sell Value": "0.85"
+                    "Yes Buy Value": "0.08",
+                    "No Buy Value": "0.93",
+                    "Yes Sell Value": "0.07",
+                    "No Sell Value": "0.92"
                 }
             },
             {
-                "Name": "4",
+                "Name": "MikePence",
                 "Values": {
-                    "Yes Buy Value": "0.12",
-                    "No Buy Value": "0.89",
-                    "Yes Sell Value": "0.11",
-                    "No Sell Value": "0.88"
+                    "Yes Buy Value": "0.06",
+                    "No Buy Value": "0.95",
+                    "Yes Sell Value": "0.05",
+                    "No Sell Value": "0.94"
                 }
             },
             {
-                "Name": "8",
+                "Name": "TedCruz",
+                "Values": {
+                    "Yes Buy Value": "0.04",
+                    "No Buy Value": "0.97",
+                    "Yes Sell Value": "0.03",
+                    "No Sell Value": "0.96"
+                }
+            },
+            {
+                "Name": "TimScott",
+                "Values": {
+                    "Yes Buy Value": "0.04",
+                    "No Buy Value": "0.97",
+                    "Yes Sell Value": "0.03",
+                    "No Sell Value": "0.96"
+                }
+            },
+            {
+                "Name": "MikePompeo",
+                "Values": {
+                    "Yes Buy Value": "0.04",
+                    "No Buy Value": "0.97",
+                    "Yes Sell Value": "0.03",
+                    "No Sell Value": "0.96"
+                }
+            },
+            {
+                "Name": "MittRomney",
+                "Values": {
+                    "Yes Buy Value": "0.04",
+                    "No Buy Value": "0.97",
+                    "Yes Sell Value": "0.03",
+                    "No Sell Value": "0.96"
+                }
+            },
+            {
+                "Name": "LarryHogan",
                 "Values": {
                     "Yes Buy Value": "0.03",
                     "No Buy Value": "0.98",
@@ -49,48 +85,75 @@
                 }
             },
             {
-                "Name": "0",
+                "Name": "KristiNoem",
                 "Values": {
-                    "Yes Buy Value": "0.01",
-                    "No Buy Value": "null",
-                    "Yes Sell Value": "null",
-                    "No Sell Value": "0.99"
+                    "Yes Buy Value": "0.03",
+                    "No Buy Value": "0.98",
+                    "Yes Sell Value": "0.02",
+                    "No Sell Value": "0.97"
                 }
             },
             {
-                "Name": "2",
+                "Name": "TuckerCarlson",
                 "Values": {
-                    "Yes Buy Value": "0.01",
-                    "No Buy Value": "null",
-                    "Yes Sell Value": "null",
-                    "No Sell Value": "0.99"
+                    "Yes Buy Value": "0.02",
+                    "No Buy Value": "0.99",
+                    "Yes Sell Value": "0.01",
+                    "No Sell Value": "0.98"
                 }
             },
             {
-                "Name": "3",
+                "Name": "TomCotton",
                 "Values": {
-                    "Yes Buy Value": "0.01",
-                    "No Buy Value": "null",
-                    "Yes Sell Value": "null",
-                    "No Sell Value": "0.99"
+                    "Yes Buy Value": "0.03",
+                    "No Buy Value": "0.98",
+                    "Yes Sell Value": "0.02",
+                    "No Sell Value": "0.97"
                 }
             },
             {
-                "Name": "9",
+                "Name": "MarcoRubio",
                 "Values": {
-                    "Yes Buy Value": "0.01",
-                    "No Buy Value": "null",
-                    "Yes Sell Value": "null",
-                    "No Sell Value": "0.99"
+                    "Yes Buy Value": "0.02",
+                    "No Buy Value": "0.99",
+                    "Yes Sell Value": "0.01",
+                    "No Sell Value": "0.98"
                 }
             },
             {
-                "Name": "1",
+                "Name": "JoshHawley",
                 "Values": {
-                    "Yes Buy Value": "0.01",
-                    "No Buy Value": "null",
-                    "Yes Sell Value": "null",
-                    "No Sell Value": "0.99"
+                    "Yes Buy Value": "0.03",
+                    "No Buy Value": "0.98",
+                    "Yes Sell Value": "0.02",
+                    "No Sell Value": "0.97"
+                }
+            },
+            {
+                "Name": "GlennYoungkin",
+                "Values": {
+                    "Yes Buy Value": "0.03",
+                    "No Buy Value": "0.98",
+                    "Yes Sell Value": "0.02",
+                    "No Sell Value": "0.97"
+                }
+            },
+            {
+                "Name": "DonaldTrumpJr.",
+                "Values": {
+                    "Yes Buy Value": "0.02",
+                    "No Buy Value": "0.99",
+                    "Yes Sell Value": "0.01",
+                    "No Sell Value": "0.98"
+                }
+            },
+            {
+                "Name": "RickScott",
+                "Values": {
+                    "Yes Buy Value": "0.02",
+                    "No Buy Value": "0.99",
+                    "Yes Sell Value": "0.01",
+                    "No Sell Value": "0.98"
                 }
             }
         ]

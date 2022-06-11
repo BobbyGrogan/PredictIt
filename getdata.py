@@ -6,7 +6,7 @@ import json
 from csv import writer
 
 #Biden 538 approval rating June 15th
-which_market = "7973"                           #str(input("ID for market? : "))
+which_market = "7053"                           #str(input("ID for market? : "))
 
 #Gets data form PredictIt API
 req = requests.get("https://www.predictit.org/api/marketdata/markets/" + which_market)
@@ -43,7 +43,7 @@ def option_names(dataset=use):
     return(names)
 
 #Returns list with name of row and price values
-def names_and_values(yes_buy, no_buy, yes_sell, no_sell, dataset=use):
+def names_and_values(yes_buy=7, no_buy=8, yes_sell=9, no_sell=10, dataset=use):
     data = []
     x = 2
     while len(dataset) > x:
@@ -69,7 +69,7 @@ to_insert = {
 get_title(): {
 "Date": get_date(),
 "Time": get_time(),
-"Contents": names_and_values(7,8,9,10)
+"Contents": names_and_values()
 }
 }
 

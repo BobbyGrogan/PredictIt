@@ -71,22 +71,5 @@ get_title(): {
 }
 }
 
-def write_json(new_data, filename='saved.json'):
-    with open(filename, 'w') as file:
-        json.dump(new_data, file, indent=4)
-
-blah = {
-"Date": 33,
-"Time": 44,
-"Contents": 44
-}
-
-with open('saved.json') as json_file:
-    data = json.load(json_file)
-    temp = data["What will Joe Biden's 538 job approval rating be for June 15?"]
-    temp.append(blah)
-
-write_json(data)
-
-#with open('saved.json', 'w+') as json_data:
-#   json.dump(to_insert, json_data)
+with open('saved.json', 'w+') as json_data:
+       json.dump(to_insert, json_data)

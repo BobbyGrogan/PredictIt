@@ -41,14 +41,16 @@ def option_names(dataset=use):
     return(names)
 
 #Returns dictonary with name, yes value, and no value
-def names_and_values(yes, no, dataset=use):
+def names_and_values(yes_buy, no_buy, yes_sell, no_sell, dataset=use):
     data = []
     x = 2
     while len(dataset) > x:
         row_name = get_value(x, 3, dataset)[1]
-        row_yes = get_value(x, yes, dataset)
-        row_no = get_value(x, no, dataset)
-        whole = {"Name": row_name, "Yes Value": row_yes, "No Value": row_no}
+        row_yes_buy = get_value(x, yes_buy, dataset)[1]
+        row_no_buy = get_value(x, no_buy, dataset)[1]
+        row_yes_sell = get_value(x, yes_sell, dataset)[1]
+        row_no_sell = get_value(x, no_sell, dataset)[1]
+        whole = {"Name": row_name, "Values": {"Yes Buy Value": row_yes_buy, "No Buy Value": row_no_buy, "Yes Sell Value": row_yes_sell, "No Sell Value": row_no_sell, }}
         data.append(whole)
         x+=1
     return(data)
@@ -56,7 +58,7 @@ def names_and_values(yes, no, dataset=use):
 import json
 to_insert = {
 "Title": get_title(), 
-"Contents": names_and_values(6,8)
+"Contents": names_and_values(7,8,9,10)
 }
 with open('saved.json', 'w+') as json_data:
    json.dump(to_insert, json_data)

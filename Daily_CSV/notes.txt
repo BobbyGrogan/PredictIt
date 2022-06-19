@@ -33,3 +33,197 @@ Data on close before decisive close:
             {'count': 321, 'Maximum': 0.51, 'Minimum': 0.01, 'Average': 0.107, '25th Percentile': 0.02, '75th Percentile': 0.17}
             [0.04, 0.06, 0.24, 0.16, 0.12, 0.1, 0.05, 0.03, 0.02, 0.14, 0.14, 0.25, 0.15, 0.12, 0.06, 0.06, 0.02, 0.02, 0.05, 0.09, 0.29, 0.15, 0.09, 0.06, 0.01, 0.01, 0.01, 0.05, 0.06, 0.16, 0.3, 0.24, 0.03, 0.03, 0.04, 0.09, 0.18, 0.26, 0.13, 0.08, 0.01, 0.01, 0.01, 0.04, 0.06, 0.22, 0.2, 0.05, 0.34, 0.21, 0.14, 0.06, 0.04, 0.01, 0.01, 0.01, 0.01, 0.03, 0.09, 0.12, 0.22, 0.17, 0.1, 0.1, 0.01, 0.01, 0.02, 0.04, 0.13, 0.26, 0.25, 0.16, 0.05, 0.05, 0.09, 0.2, 0.18, 0.07, 0.04, 0.01, 0.02, 0.02, 0.06, 0.11, 0.15, 0.17, 0.18, 0.12, 0.1, 0.16, 0.18, 0.26, 0.21, 0.06, 0.01, 0.01, 0.08, 0.06, 0.06, 0.11, 0.11, 0.24, 0.17, 0.14, 0.02, 0.02, 0.08, 0.18, 0.22, 0.12, 0.07, 0.02, 0.03, 0.08, 0.11, 0.12, 0.13, 0.2, 0.11, 0.08, 0.16, 0.2, 0.19, 0.1, 0.07, 0.01, 0.01, 0.01, 0.51, 0.23, 0.14, 0.03, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.05, 0.24, 0.38, 0.12, 0.36, 0.33, 0.15, 0.05, 0.01, 0.01, 0.01, 0.01, 0.07, 0.16, 0.2, 0.15, 0.17, 0.05, 0.02, 0.01, 0.01, 0.01, 0.01, 0.02, 0.04, 0.25, 0.32, 0.32, 0.05, 0.07, 0.14, 0.17, 0.2, 0.15, 0.09, 0.07, 0.17, 0.2, 0.16, 0.13, 0.12, 0.1, 0.05, 0.04, 0.13, 0.12, 0.21, 0.2, 0.15, 0.04, 0.01, 0.01, 0.04, 0.09, 0.24, 0.31, 0.21, 0.15, 0.03, 0.02, 0.27, 0.26, 0.16, 0.18, 0.05, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.02, 0.03, 0.06, 0.14, 0.05, 0.08, 0.17, 0.22, 0.22, 0.13, 0.09, 0.07, 0.2, 0.2, 0.18, 0.13, 0.08, 0.03, 0.01, 0.01, 0.01, 0.01, 0.01, 0.03, 0.15, 0.33, 0.18, 0.14, 0.13, 0.16, 0.23, 0.14, 0.1, 0.05, 0.05, 0.06, 0.02, 0.04, 0.04, 0.12, 0.17, 0.19, 0.2, 0.15, 0.04, 0.07, 0.22, 0.24, 0.11, 0.05, 0.02, 0.01, 0.3, 0.21, 0.14, 0.04, 0.01, 0.01, 0.01, 0.01, 0.02, 0.03, 0.05, 0.07, 0.3, 0.2, 0.17, 0.23, 0.39, 0.28, 0.07, 0.04, 0.03, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.04, 0.23, 0.26, 0.3, 0.01, 0.01, 0.02, 0.02, 0.04, 0.12, 0.25, 0.37, 0.2, 0.26, 0.17, 0.12, 0.09, 0.02, 0.01, 0.01, 0.2, 0.19, 0.19, 0.14, 0.07, 0.06, 0.02, 0.01]
 
+For RC:
+
+    Buy 6 days before close if above 0.0 but not above 0.05:
+        Wins: 3
+        Losses: 36
+        Length: 39 / 360
+        Average purchase price: 0.026
+        Average sale price: 0.085
+
+    Buy 5 days before close if above 0.0 but not above 0.05:
+        Wins: 2
+        Losses: 50
+        Length: 52 / 360
+        Average purchase price: 0.026
+        Average sale price: 0.048
+
+    Buy 4 days before close if above 0.0 but not above 0.05:
+        Wins: 6
+        Losses: 94
+        Length: 100 / 360
+        Average purchase price: 0.024
+        Average sale price: 0.069
+
+    Buy 3 days before close if above 0.0 but not above 0.05:
+        Wins: 3
+        Losses: 115
+        Length: 118 / 360
+        Average purchase price: 0.018
+        Average sale price: 0.035
+
+    Buy 2 days before close if above 0.0 but not above 0.05:
+        Wins: 0
+        Losses: 183
+        Length: 183 / 360
+        Average purchase price: 0.016
+        Average sale price: 0.01
+
+    Buy 1 days before close if above 0.0 but not above 0.05:
+        Wins: 0
+        Losses: 252
+        Length: 252 / 360
+        Average purchase price: 0.012
+        Average sale price: 0.01
+
+    ! -- Conclusion: Unlikely traded shares actually have reasonable possibility, especially 4 days before (but essentially no chance close to expiration) --!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Buy 6 days before close if above 0.2 but not above 0.4:
+        Wins: 4
+        Losses: 21
+        Length: 25 / 360
+        Average purchase price: 0.24
+        Average sale price: 0.166
+
+    Buy 5 days before close if above 0.2 but not above 0.4:
+        Wins: 3
+        Losses: 20
+        Length: 23 / 360
+        Average purchase price: 0.257
+        Average sale price: 0.137
+
+    Buy 4 days before close if above 0.2 but not above 0.4:
+        Wins: 9
+        Losses: 42
+        Length: 51 / 360
+        Average purchase price: 0.239
+        Average sale price: 0.183
+
+    Buy 3 days before close if above 0.2 but not above 0.4:
+        Wins: 13
+        Losses: 47
+        Length: 60 / 360
+        Average purchase price: 0.266
+        Average sale price: 0.222
+
+    Buy 2 days before close if above 0.2 but not above 0.4:
+        Wins: 24
+        Losses: 39
+        Length: 63 / 360
+        Average purchase price: 0.302
+        Average sale price: 0.383
+
+    Buy 1 days before close if above 0.2 but not above 0.4:
+        Wins: 10
+        Losses: 11
+        Length: 21 / 360
+        Average purchase price: 0.29
+        Average sale price: 0.476
+
+    ! -- Conclusion: Good chance traded shares are overvalued far from expiration and undervalued close to expiration --!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Buy 2 days before close if above 0.4 but not above 1.0:
+        Wins: 8
+        Losses: 8
+        Length: 16 / 360
+        Average purchase price: 0.606
+        Average sale price: 0.499
+
+    Buy 1 days before close if above 0.4 but not above 1.0:
+        Wins: 25
+        Losses: 16
+        Length: 41 / 360
+        Average purchase price: 0.715
+        Average sale price: 0.608
+
+    ! -- Conclusion: Very likely traded shares are overvalued close to expiration (generally don't exist further) --!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+For 538:
+
+        NO DATA LISTED SINCE NO MEANINGFUL CONCLUSION REACHED
+        
+        ! -- Conclusion: Unlikely traded shares do not have oppurtunity --!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        Buy 6 days before close if above 0.2 but not above 0.4:
+            Wins: 14
+            Losses: 50
+            Length: 64 / 369
+            Average purchase price: 0.241
+            Average sale price: 0.224
+
+        Buy 5 days before close if above 0.2 but not above 0.4:
+            Wins: 15
+            Losses: 57
+            Length: 72 / 369
+            Average purchase price: 0.249
+            Average sale price: 0.214
+
+        Buy 4 days before close if above 0.2 but not above 0.4:
+            Wins: 17
+            Losses: 58
+            Length: 75 / 369
+            Average purchase price: 0.26
+            Average sale price: 0.232
+
+        Buy 3 days before close if above 0.2 but not above 0.4:
+            Wins: 24
+            Losses: 67
+            Length: 91 / 369
+            Average purchase price: 0.275
+            Average sale price: 0.269
+
+        Buy 2 days before close if above 0.2 but not above 0.4:
+            Wins: 19
+            Losses: 40
+            Length: 59 / 369
+            Average purchase price: 0.289
+            Average sale price: 0.326
+
+        ! -- Conclusion: Good chance traded shares are overvalued far from expiration and undervalued close to expiration (less signifcant advantage than RC) --!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        Buy 6 days before close if above 0.4 but not above 1.0:
+            Wins: 1
+            Losses: 2
+            Length: 3 / 369
+            Average purchase price: 0.613
+            Average sale price: 0.337
+
+        Buy 5 days before close if above 0.4 but not above 1.0:
+            Wins: 2
+            Losses: 1
+            Length: 3 / 369
+            Average purchase price: 0.59
+            Average sale price: 0.663
+
+
+        Buy 4 days before close if above 0.4 but not above 1.0:
+            Wins: 1
+            Losses: 1
+            Length: 2 / 369
+            Average purchase price: 0.72
+            Average sale price: 0.5
+
+        Buy 3 days before close if above 0.4 but not above 1.0:
+            Wins: 1
+            Losses: 3
+            Length: 4 / 369
+            Average purchase price: 0.57
+            Average sale price: 0.255
+
+        Buy 2 days before close if above 0.4 but not above 1.0:
+            Wins: 11
+            Losses: 14
+            Length: 25 / 369
+            Average purchase price: 0.521
+            Average sale price: 0.442
+
+        ! -- Conclusion: High chance traded shares are overvalued at all distances from expiration --!
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -17,14 +17,17 @@ sale_prices = []
 portfolio = []
 total_length = []
 purchase_and_sale = []
+low_param = 0.05
+high_param = 0.2
+day = -2
 wins = 0
 losses = 0
-for p in dataR:
+for p in data5:
         for n in p[:-1]:
-            buy = n[3][-2]
+            buy = n[3][day]
             sell = n[3][-1]
             total_length.append("1")
-            if (buy > 0.2 and buy < 0.5):
+            if (buy > low_param and buy < high_param):
                 portfolio.append([buy,sell])
                 purchase_prices.append(buy)
                 sale_prices.append(sell)
@@ -33,45 +36,9 @@ for p in dataR:
                 else:
                     losses += 1
 
-print(portfolio)
+print("Buy " + str((day+1)*-1) + " days before close if above " + str(low_param) + " but not above " + str(high_param) + ":")
 print("Wins: " + str(wins))
 print("Losses: " + str(losses))
 print("Length: " + str(len(portfolio)) + " / " + str(len(total_length)))
 print("Average purchase price: " + str(np.round(average(purchase_prices),3)))
 print("Average sale price: " + str(np.round(average(sale_prices),3)))
-
-
-# for n in portfolio:
-#     dif = np.round((n[1] - n[0])/n[0],3)
-#     purchase_and_sale.append(dif)
-
-# print("Ratio: " + str(np.round(wins/losses, 3)))
-# print("Average gain: " + str(np.round(average(purchase_and_sale),3)))
-
-
-
-
-
-#IGNORE BELOW
-
-# blah = []
-# all_results = []
-# portfolio = []
-# for p in dataR:
-#     for n in p[:-1]:
-#         blah.append("1")
-#         if n[3][-3] > 0.2 and n[3][-3] < 0.4:
-#             portfolio.append([n[3][-3],n[3][-1]])
-
-# for n in portfolio:
-#     dif = np.round((n[1] - n[0])/n[0],3)
-#     all_results.append(dif)
-    
-
-# print(all_results)
-# print(summarize(all_results))
-
-# print("\n")
-    
-# pd_index_results = pd.Series(index_results)
-# print(pd_index_results.value_counts())
